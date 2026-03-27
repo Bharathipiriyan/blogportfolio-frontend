@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './common/Navbar'
 import BlogProfileImage from "../assets/Blog Website Design.jpg"
 import CSS from "../assets/css-3.png"
 import HTML from "../assets/html.png"
@@ -37,12 +36,12 @@ function Home() {
 
 
             <div className='flex justify-evenly py-6'>
-                <img src={HTML} style={{ width: "50px" }} />
-                <img src={CSS} style={{ width: "50px" }} />
-                <img src={JS} style={{ width: "50px" }} />
-                <img src={REACTICON} style={{ width: "50px" }} />
-                <img src={DB} style={{ width: "50px" }} />
-                <img src={NODE} style={{ width: "50px" }} />
+                <img src={HTML} alt='noimage' style={{ width: "50px" }} />
+                <img src={CSS} alt='noimage' style={{ width: "50px" }} />
+                <img src={JS} alt='noimage' style={{ width: "50px" }} />
+                <img src={REACTICON} alt='noimage' style={{ width: "50px" }} />
+                <img src={DB} alt='noimage' style={{ width: "50px" }} />
+                <img src={NODE} alt='noimage' style={{ width: "50px" }} />
             </div>
 
             <div className='flex flex-col mt-10 items-center justify-around sm:flex-row'>
