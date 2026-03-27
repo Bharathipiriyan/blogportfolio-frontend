@@ -11,6 +11,7 @@ import P1 from "../assets/p1.jpg"
 import P2 from "../assets/p2.png"
 import P3 from "../assets/p3.png"
 import BlogImage from "../assets/blogImage.png"
+import myimage from "../assets/myimage.JPG"
 import { useNavigate } from 'react-router-dom';
 import Footer from './common/Footer'
 
@@ -22,13 +23,13 @@ function Home() {
             <div className='flex items-center justify-center'>
                 <div className="w-full sm:w-1/2 flex-col justify-center">
                     <h2 className='text-3xl md:text-6xl font-bold pb-2'>Hy! I Am</h2>
-                    <h2 className='text-4xl md:text-7xl font-bold text-orange-400 py-2'>Jacky Thomas</h2>
+                    <h2 className='text-4xl md:text-7xl font-bold text-orange-400 py-2'>Bharathipriyan</h2>
                     <img src={BlogProfileImage} className='w-60 block sm:hidden' alt="Blog Profile Image" />
                     <p className='py-2'>I can create stunning website for your company, Do check my works. I won't disappoint you. Try me for 7 Days before you decide anything.</p>
                     <button className='button-style mt-2'>Hire Me</button>
                 </div>
-                <div className='justify-center hidden sm:block'>
-                    <img src={BlogProfileImage} className='w-60 md:w-96 ' alt="Blog Profile Image" />
+                <div className='justify-center hidden sm:block '>
+                    <img src={myimage} className='w-60 md:w-96 rounded-xl' alt="Blog Profile Image" />
 
                 </div>
 
@@ -101,7 +102,7 @@ function Home() {
             </div>
 
 
-            <Footer/>
+            <Footer />
 
 
         </div>
